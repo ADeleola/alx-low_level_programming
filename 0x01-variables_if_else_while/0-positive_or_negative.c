@@ -7,14 +7,9 @@
 
 
 /**
- *
- *  * main - ENtry point
- *
- *   *
- *
- *    * Return: Always 0 (Success!)
- *
- *     */
+ * main - ENtry point
+ * Return: Always 0 (Success!)
+ */
 
 
 
