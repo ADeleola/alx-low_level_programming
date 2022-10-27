@@ -1,25 +1,24 @@
 #include "main.h"
 
 /**
- * _puts - prints a string
+ * _puts - A function that prints a string,
  *
- * @str: input character
- * 
- * Return: no
+ * followed by a new line, to stdout
+ *
+ * @str: a character parameter
  */
 
 void _puts(char *str)
 {
-	int count = 0;
+	int i = 0;
 
-	while (count >= 0)
+	while (str[i] != '\0')
 	{
-		if (str[count] == '\0')
-		{
-			_putchar('\n');
-
-			break;
-		}
-										_putchar(str[count]);
-										count++;
+		_putchar(str[i]);
+		i++;
+	}
+	if (str[i] == '\0')
+	{
+		_putchar('\n');
+	}
 }
